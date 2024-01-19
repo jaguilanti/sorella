@@ -497,7 +497,7 @@ div section p{
     height: 50vw;
     color: white;
     font-family: 'Rethink Sans', sans-serif;
-    background-image: linear-gradient(to right,rgb(0 0 0/.05),rgb(0 0 0/.05)),url(../imagenes/Fondos/fondo6.png);
+    background-image: linear-gradient(to right,rgb(0 0 0/.05),rgb(0 0 0/.05)),url(../imagenes/fondos/fondo6.png);
     background-size: contain;
     background-position: center;
 }  

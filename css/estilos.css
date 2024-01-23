@@ -90,19 +90,23 @@ header{
 	position: absolute;
 	background: #edede9ff;
 	width: 10vw;
-	visibility: hidden;
+	visibility: hidden; 
 	opacity: 0;
 	transition: opacity 1.5s;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-left: 0;
     
 }
-
+.submenu li{
+    padding: 1.5vw;  
+}
 .submenu li a{
-	padding: 10px;
 	color: black;
 	font-family: 'Rethink Sans', sans-serif;
 	text-decoration: none;
+    
 }
 
 .menu-navegacion li:hover .submenu{
@@ -110,6 +114,7 @@ header{
 	opacity: 1;
     z-index: 1;
     color:  #d5bdafff;
+    
 }
 
 /*------Portada------*/
@@ -1023,25 +1028,43 @@ div section p{
     height: 30px;
     
 }
-.cerrarmenuhamburguesa{
-    /* display: none; */
-    border: solid black 1px;
+.cerrar-menu{
+    display: none; 
+    border: 0;
     padding: 1px;
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin-top: 10px;
     right: 0;
 }
 @media  (max-width: 480px) {
-/*   .menu-navegacion{
+    header{
+       height: 50px;
+    }
+    .logonav{
+        font-size: 8vw;
+    }
+    .navegacion{
+        justify-content: end;
+        width: 70%;
+    }
+    .abrir-menu{
+        display:inline-flex;
+        align-self: center;
+        right: 0;
+    }
+  .menu-navegacion{
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     flex-direction: column;
-    background-color: #222;
+    background-color: #edede9ff;
     z-index: 1;
-    align-items: start;
-    
+    align-items: center;
+    width: 100px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .7);
   }
   .menu-navegacion li{
     margin: 0;
@@ -1053,23 +1076,41 @@ div section p{
     right: 0;
     top:0;
     bottom: 0;
-    padding: 0;
+    padding: 0 2vw;
     height: 10px;
-    color: white;
+    color: black;
     text-align: left;
+    box-sizing: border-box;
   }
   .submenu{
-    justify-content: start;
-    right: 0;
-    padding: 0;
+    display: none;
+    
   }
-  .submenu li a{
-    color: #222;
-    text-align: right;
-  }
+ 
     .galeria-menu img{
     height: 100px;
   }
-     */
-}
 
+  .cerrar-menu{
+    color: black;
+    display: block;
+    align-self: center;
+    cursor: pointer;
+    font-size: 2vw; 
+  }
+  #nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c1c1c;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+}
+}

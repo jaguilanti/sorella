@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Sorella</title>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
- <link rel="shortcut icon" href="imagenes/logosorella.png" type="image/x-icon">
- <link rel="shortcut icon" href="../imagenes/logosorella.png" type="image/x-icon">
- <link rel="shortcut icon" href="../imagenes/logosorella.png" type="image/x-icon">
- <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="./css/estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorella</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="imagenes/logosorella.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../imagenes/logosorella.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../imagenes/logosorella.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./js/function-color.js">
+  <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
-   
+
   <header>
     <a class="logonav" href="">Sorella</a>
 
-    <div class="navegacion">  
+    <div class="navegacion">
 
       <!--  Menu de navegación  -->
       <button id="abrir" class="abrir-menu"><img src="./iconos contactos/barra-de-menus.png" alt=""></i></button>
-      <nav class="menu">    
+      <nav class="menu" id="nav">
 
-        <ul class="menu-navegacion">
-          <!-- <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button> -->
+        <ul  class="menu-navegacion">
+          <button class="cerrar-menu" id="cerrar">X</i></button> 
           <li><a href="./index.html">Home</a></li>
           <li><a href="./paginas/shop.html">Shop</a>
             <ul class="submenu">
@@ -34,64 +38,66 @@
               <li><a href="#">New Arrivals</a></li>
               <li><a href="#">Sales</a></li>
             </ul>
-          </li>          
+          </li>
           <li><a href="./paginas/diario.html">Journal</a></li>
           <li><a href="./paginas/sobre.html">About</a></li>
           <li><a href="./paginas/contactos.html">✆</a></li>
 
         </ul>
 
-      </nav>  
+      </nav>
 
     </div>
-    
-  </header>    
-      
+
+  </header>
+
   <!-- Portada -->
-  <main> 
+  <main>
     <section>
-      <div>        
-       <img class="port" src="./imagenes/image.png" alt="Outfits">
-       <h2 class="encabezado-portada">FOR THE BOLD,<span> THE FIERCE & THE </span><span>ON-TREND</span></h2>
+      <div>
+        <img class="port" src="./imagenes/image.png" alt="Outfits">
+        <h2 class="encabezado-portada">FOR THE BOLD,<span> THE FIERCE & THE </span><span>ON-TREND</span></h2>
 
       </div>
       <div class="bajo-portada" id="changecolor">
-       <h2 >NEW PRODUCT ADDED EVERY WEEK</h2>
-       <h2 >FREE SHIPPING OVER 1000USD</h2>
-       <h2 >WORLDWIDE SHIPPING OVER 150USD</h2>
+        <h2>NEW PRODUCT ADDED EVERY WEEK</h2>
+        <h2>FREE SHIPPING OVER 1000USD</h2>
+        <h2>WORLDWIDE SHIPPING OVER 150USD</h2>
       </div>
-    </section> 
-    
-    
+    </section>
+
+
     <!-- Contenido -->
     <section>
       <div class="contenido">
-        <img class="imagencontenido" src="./imagenes/new2.png" alt="Mujer con ropa sastrera" >
+        <img class="imagencontenido" src="./imagenes/new2.png" alt="Mujer con ropa sastrera">
         <div class="fondoparrafo">
           <h2 class="tituloparrafo">NEW YEAR, NEW YOU.</h2>
-          <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit.   Voluptate maiores distinctio qui fuga exercitationem eius, labore iusto nisi animi   nostrum possimus vel accusantium odio facilis assumenda quasi?</p>
+          <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate maiores distinctio qui
+            fuga exercitationem eius, labore iusto nisi animi nostrum possimus vel accusantium odio facilis assumenda
+            quasi?</p>
           <div>-</div>
         </div>
       </div>
-      
+
     </section>
-    
+
     <!-- Productos! -->
     <section>
       <div class="galeria-menu">
-       
-       <img src="./imagenes/zapatos/zapatos4.png" alt="" class="imagenzapatos">
-                     
-       <img src="./imagenes/vestidos/vestidos.png" alt="" class="imagenvestido">
-           
-  
-        
+
+        <img src="./imagenes/zapatos/zapatos4.png" alt="" class="imagenzapatos">
+
+        <img src="./imagenes/vestidos/vestidos.png" alt="" class="imagenvestido">
+
+
+
       </div>
     </section>
-     
-          
-    
-  </main> 
+
+
+
+  </main>
   <!-- Pie de Página -->
   <footer>
     <div>
@@ -100,24 +106,29 @@
       </section>
       <section>
         <p>
-         <img src="./iconos contactos/instagram.png" alt="icono instagram">
-         <a href="https://www.instagram.com/sorellaok24?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank">sorellaok24</a> 
+          <img src="./iconos contactos/instagram.png" alt="icono instagram">
+          <a href="https://www.instagram.com/sorellaok24?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="
+            target="_blank">sorellaok24</a>
         </p>
         <p>
           <img src="./iconos contactos/facebook.png" alt="icono facebook">
-          <a href="https://es-la.facebook.com/sorellaok/" target="_blank"> Sorella</a> 
+          <a href="https://es-la.facebook.com/sorellaok/" target="_blank"> Sorella</a>
         </p>
         <p>
-          <img src="./iconos contactos/whatsapp.png" alt="icono whatsapp"> 
+          <img src="./iconos contactos/whatsapp.png" alt="icono whatsapp">
           <a href="https://wa.me/543572406881?text=Hola me interesa:" target="_blank"> 3572 406881</a>
         </p>
 
       </section>
-      
-    </div> 
+
+    </div>
     <p class="textos-footer">© SORELLA 2024 </p>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+  </script>
+  
+</body>
+
 </html>
- 

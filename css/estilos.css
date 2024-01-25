@@ -875,26 +875,31 @@ div section p{
     align-items: center;
 }
 .di-5-1-1{
-    font-size: 15vw;
+    font-size: 12vw;
     padding: 0;
-    height: 60px;
+    height: 100px;
     font-weight: bold;
     width: 100%; 
     font-family: 'IM Fell DW Pica', serif;
+    margin-bottom: 0;
     
 }
 .di-5-1-2{
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: bold;
-    padding-bottom: 1vw;
+    margin-bottom: 0;
+    padding: 1vw;
 }
 .di-5-1-p1{
-    width: 60%;
+    width: 90%;
+    font-size: 1vw;
+    margin-bottom: 0;
 }
 .di-5-1-p2{
     background-color: #f2f2f2ff ;
     padding: 10px;
     margin-top: 30px;
+    border-radius: 3vw;
 }
 .div5-a{
     color: white;
@@ -1081,7 +1086,6 @@ div section p{
     .abrir-menu{
         display:inline-flex;
         align-self: center;
-        justify-content: ;
         right: 0;
     }
     .cerrar-menu{

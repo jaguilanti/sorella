@@ -15,7 +15,7 @@
 }())
 
 /* Abrir/Cerrar menu */
-const nav = document.querySelector("#menunavegacion");
+const nav = document.querySelector("#menu");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 

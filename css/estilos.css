@@ -1261,7 +1261,7 @@ div section p{
       margin-bottom: 5vw;  
     }
     .botones{
-        width: 95px !important  ;
+        width: 100% !important  ;
         margin-left: 0;
         margin-bottom: 0;
         font-size: 2vw;

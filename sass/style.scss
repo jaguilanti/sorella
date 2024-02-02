@@ -1,0 +1,38 @@
+@import "generales/variables";
+@import "generales/headerfooter";
+
+
+@import "page/index";
+@import "page/shop";
+@import "page/diario";
+@import "page/sobre";
+@import "page/contacto";
+
+#mensaje{
+    resize:none;
+    width: 20vw;
+}
+.abrir-menu{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    align-self: center;
+    border: 0;
+    position: absolute;
+    background-color: transparent;
+    display: none;
+}
+.abrir-menu img{
+    height: 30px;
+    width: 30px;
+}
+.cerrar-menu{
+    display: none; 
+    border: 0;
+    /* padding: 1px; */
+    font-size: 1vw;
+    margin-top: 10px;
+    right: 0;
+}
+
+@import "generales/mediaq"

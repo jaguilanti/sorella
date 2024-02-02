@@ -1,0 +1,37 @@
+
+
+$font: 'Lobster', sans-serif;
+$font2:'Rethink Sans', sans-serif;
+$font3: 'IM Fell DW Pica', serif;
+$font4:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$negrita:bold;
+
+$bizon:#edede9ff;
+$bizon2:#d6ccc2ff;
+$piel:#d5bdafff;
+$naranja:#e3d5caff;
+$amarillo:#edede9ff;
+$amarillo2:#ccc5b9ff;
+$marron:#F5EBE0ff;
+$gris:#ccccccff;
+$gris2:#f2f2f2ff;
+$gris3:#a5a5a5ff;
+$grisoscuro:#595959ff;
+$grisoscuro2:#7f7f7fff;
+$crema:#fffcf2ff;
+$negro: #222;
+$rojo:rgb(218, 39, 72) ;
+
+
+@mixin flex ($direccion, $justify, $aling){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: content-box;               
+}

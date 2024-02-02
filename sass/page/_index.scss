@@ -1,0 +1,81 @@
+/* index portada */
+main{
+    .port{
+        width: 100%;
+        position: absolute; 
+    }
+    
+    .encabezado-portada {
+     position: relative;
+     padding-top: 15% ;
+     padding-left: 30%;
+     padding-right: 30%;
+     flex-direction: column;  
+     color: rgb(255, 255, 255);
+     font-size: 5vw;
+     font-family: $font2;
+     text-align: center;
+     font-weight: bold; 
+    }
+    .bajo-portada{
+        position: relative ;
+        margin-top: 15%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        background-color: $naranja; 
+        h2{
+            font-family: $font2;
+            font-weight: $negrita;
+            font-size: 1.5vw ;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;  
+        } 
+    }
+    .contenido{
+        position: left;
+        padding: 5vw 20vw;
+        .imagencontenido{
+            width: 40vw;    
+        }
+        .fondoparrafo{   
+            background-color: $bizon ; 
+            font-family: $font2;
+            position: absolute;
+            margin: -25vw 25vw;
+            padding: 2vw;
+            display: flex;
+            align-items: center;    
+            flex-direction: column;
+            width: 25%;
+            font-size: 1vw;
+            .tituloparrafo{
+                width: 75%;
+                margin-left: -30%;
+                font-size: 3vw;
+                font-weight: bold;
+            }
+            div {
+                color:$bizon2 ;
+                background-color: $bizon2;
+                font-size: 20px;
+                width: 15%;
+                position: absolute;
+                margin-top: -25px;
+                margin-right: 90% ;
+            } 
+        }
+    }
+    .galeria-menu{
+        display: flex;
+        justify-content: space-around;
+        margin: 3vw;
+        img{
+            border-radius: 5vw;
+            height: 800px;
+            border: solid 1px black;
+        }
+    }  
+}

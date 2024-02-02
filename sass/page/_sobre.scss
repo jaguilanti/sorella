@@ -1,0 +1,60 @@
+/* About */
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:left;
+    height: 50vw;
+    color: white;
+    font-family: $font2;
+    background-image: linear-gradient(to right,rgb(0 0 0/.05),rgb(0 0 0/.05)),url(../imagenes/fondos/fondo6.png);
+    background-size: contain;
+    background-position: center;
+    h1{
+        width: 50%;
+        height: 0.1%;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 3vw;
+        font-family: $font2;
+        font-weight: bold;
+    }
+    div{
+        display: flex;
+        flex-flow: row wrap;
+        .ap1{
+            width: 50%;
+            font-size: 1.5vw;
+            
+        }
+        .a1{
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: space-between;
+            width: 30vw;
+            margin-bottom: 5vw;
+            font-size: 1.3vw;
+            
+        }
+        .a2{
+            width: 100%;
+            justify-content: center;            
+            h2{
+                font-size: 3vw;    
+            }
+            p{
+                width: 100%;
+                text-align: center;
+                font-size: 2vw;
+                margin-bottom: 3vw;
+            }
+            
+        }
+    }
+    p{
+        margin: 0vw 3vw 0vw 3vw;
+        
+    }
+    
+}

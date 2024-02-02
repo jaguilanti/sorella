@@ -1,0 +1,220 @@
+/* shop */
+main{
+    .s-portada{
+        display: flex;
+        box-sizing: border-box;
+        margin-top: 1vw;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 700px;
+        div img{
+            width:30vw;
+            height: 45vw;
+            border-radius: 3vw;
+            border: 2px solid black;         
+        }
+        .s-d-port{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .shop-parrafo-portada{
+                position: absolute;
+                width: 300px;            
+            }
+        }
+        .s2{
+            @include flex (column, center, center);
+            img{                               
+                border-radius: 3vw;
+                z-index: -20;       
+            }
+            div{
+                position: absolute;
+                width: 30%;
+                text-align: center;
+                h1{
+                    font-size: 2.5vw;
+                    font-family: $font;
+                }
+                h2{
+                    font-size: 4vw;
+                    font-family: $font2;
+                }
+                h3 {
+                    display: flex;
+                    width: 100%;
+                    justify-content: center; 
+                    border-radius: 5vw;                    
+                    font-size: 1vw;
+                    font-family: $font2;
+                    color: black;
+                    text-decoration: none;
+                    .fancy-button{
+                        display: block;
+                        width: 6vw;
+                        border-radius: 5vw;
+                        border: 1px solid black;
+                        text-decoration: none;
+                        color: #222;
+                        padding: 6px 10px;
+                        margin-top: 10px;
+                        text-align: center;
+                        position: relative;
+                        transition: color .6s;
+                    }
+                    :hover{
+                        color:white;
+                        
+                    }
+                    .fancy-button::before{
+                        content:'';
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        background-color:$marron;
+                        z-index: -1;
+                        left: 100%;
+                        width: 0%;
+                        transition: .6s;
+                        border-radius: 5vw;
+                    }
+                    .fancy-button:hover::before{
+                        left: 0%;
+                        width: 100%;
+                        transition: width .6s;
+                        background-color:$bizon2;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+    .productos-menu{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        div{
+            width: 400px;
+            padding: 2vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            img{
+                width: 400px;
+                border-radius: 3vw;
+                border: 2px solid black;
+            }
+            
+        }
+        .titulo-shop-productos{
+            position: absolute;
+            color: white;
+            text-decoration: none;
+            background-color:$negro;
+            border-radius: 2vw;
+            padding: 0.5vw;
+            :hover {
+                color: $rojo;
+                transition: 0.5s;
+            }
+        }
+    }
+    .s-portada2{
+        display: grid;
+        margin: 1vw;
+        grid-template-columns: repeat(2,2fr) ;
+        grid-template-rows: repeat(2,2fr);
+        grid-gap: 10px;
+        grid-template-areas: 
+        "perchas parrafo"
+        "sale    parrafo" ;
+        img{
+            border-radius: 3vw; 
+            border: 3px solid black;
+            height: 100%;    
+        }
+        .div-perchas{
+            grid-area: perchas;
+            .perchas{
+                width: 100%;
+                height: 40vw;
+            }
+        }
+        .s22{
+            font-family: $font2; 
+            grid-area: sale;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .ssi{
+                width: 100%;
+                height: 40vw;
+            }
+            .ss1{
+                position: absolute;
+                z-index: 1;
+                .fancy-button2{
+                    display: block;                    
+                    border-radius: 5vw;
+                    border: 1px solid black;
+                    text-decoration: none;
+                    color: $negro;
+                    padding: 6px 10px;
+                    margin-top: 10px;
+                    text-align: center;
+                    position: relative;
+                    transition: color .6s;
+                }
+                :hover{
+                    color:white;
+                    
+                }
+                .fancy-button2::before{
+                    content:'';
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    background-color:$marron;
+                    z-index: -1;
+                    left: 100%;
+                    width: 0%;
+                    transition: .6s;
+                    border-radius: 5vw;
+                }
+                .fancy-button2:hover::before{
+                    left: 0%;
+                    width: 100%;
+                    transition: width .6s;
+                    background-color:$bizon2;
+                    
+                } 
+            }
+        }
+        .divimg-fondo-par{
+            display: flex;
+            grid-area: parrafo;
+            justify-content: end;
+            .img-fondo-par{
+                width: 100%;
+                height: 82vw;
+            }
+            .shop-parrafo-portada2{
+                position: absolute;
+                width: 14vw;
+                margin-right: 6vw ;
+                margin-top: 10vw;
+            }
+            
+        }       
+    }
+    .propia{
+        color:white;
+        background-color: $negro;
+        width: 200px;
+        border-radius: 20px;
+    } 
+}

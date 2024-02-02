@@ -1,0 +1,282 @@
+/* Media Quearies */
+@media only screen and (max-width: 480px) {
+    .menu{
+        opacity: 0 ;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 15px;
+        background-color:#edede9ff ;
+        padding: 1vw;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5) ;
+        z-index: 1;
+        box-sizing: border-box;
+    }
+    .menu-navegacion{
+        flex-direction: column;
+        align-items: end;
+        margin-right: 0;
+        bottom: 0;
+        justify-content: start;
+    }
+   
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 2vw;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu{
+        display:inline-flex;
+        align-self: center;
+        right: 0;
+    }
+    .cerrar-menu{
+        color: black;
+        display: block;
+        align-self: center;
+        cursor: pointer;
+        font-size: 2vw; 
+      }
+        .menu.visible {
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    .logonav{
+        font-size: 8vw;
+    }
+    .galeria-menu img{
+        height: 200px;
+    }
+    /* home */
+    .fondoparrafo div {
+        font-size: 4px;
+        width: 15%;
+        position: absolute;
+        margin-top: -6px;
+        margin-right: 95% ;
+    } 
+  
+    .galeria-menu img{
+        height: 150px !important;
+        
+    }
+    /* shop */
+    .s-portada{
+        flex-flow: column wrap ;
+        height: 250px !important;
+    }
+    
+    .shop-parrafo-portada{
+     font-size: 1vw !important;
+     width: 80px !important;
+     margin-top: 3vw !important;   
+    } 
+    .shop-parrafo-portada2{
+      font-size: 1.2vw !important;
+      margin-top: 11vw !important;
+      margin-right: 6vw !important;
+      width: 16vw !important;  
+    }
+    /* Journal */
+    .d-div1{
+        display: flex !important;
+        flex-flow: column wrap !important;
+        height: auto !important;
+    }
+    .d-div1 div h4{
+        font-size: 2vw !important;
+        margin-left: -9vw !important;
+        margin-top: 7vw !important;
+    }
+    .d-div10{
+        align-self: center !important;
+        width: 450px;
+    }
+    .d-div10 img{
+        width: 300px !important; 
+        
+    }
+    .d-div11{
+        width: 500px !important;
+        text-align: center !important;
+        padding: 0 !important;
+        margin-left: 12vw !important;
+    }
+    .d-div11 h3{
+       width: 250px !important;
+       font-size: 3vw;
+       font-weight: bold !important;
+        
+    }
+    .d-div11 p{
+      font-size: 3vw !important;
+      width: 250px !important;
+    }
+    .d-div12{
+      display: flex !important;
+      flex-flow: row wrap !important;
+      border-left: none !important;
+      border-right: none !important;
+      width: 100% !important;
+    }
+    
+    .d-div12 img{
+        width: 200px !important;
+        
+    }
+    .d-div12 .d-h4{
+        font-size: 2vw !important;
+        margin-top: -35vw !important;
+        left: 15px !important;
+        
+        
+    }
+    .d-div12 h3 {
+        font-size: 5vw !important;
+        width: 150px !important;
+        align-self: self-start !important;
+        margin-left: 5vw !important;
+        
+    }
+    .d-div12 p {
+        font-size: 3vw !important;
+        width: 100px !important;
+        position: absolute !important;
+        right: 45px !important;
+    }
+    
+    .d-div13{
+        display: flex !important;
+        flex-flow: row wrap !important;
+        border-left: none !important;
+        border-right: none !important;
+        width: 100% !important;
+    }
+    .d-div13 img{
+
+     width: 200px !important;
+          
+    }
+    .d-div13 .d-h4{
+        font-size: 2vw !important;
+        margin-top: -35vw !important;
+    }    
+    .d-div13 h3 {
+        font-size: 5vw !important;
+        width: 150px !important; 
+        align-self: self-start !important;
+        margin-left: 5vw !important;
+        
+    }
+    .d-div13 p {
+        font-size: 3vw !important;
+        width: 100px !important;
+        position: absolute !important;
+        right: 45px !important;
+        margin-top:100px !important;
+    }
+      
+    .diario-contenedor{
+        display: none !important;
+    }
+    /* .diario-contenedor{
+      display: grid;
+      box-sizing: border-box;
+      width: 100%;
+      grid-template-columns: repeat(3,160px);
+      grid-template-rows: repeat(4,200px);
+      grid-gap: 20px;
+      grid-template-areas:
+      "none di1 none "
+      "di3  di3 di3 "
+      "none di4 di6"
+      "di2  di5 di5" ; 
+      margin-top: 30px;  
+    }
+    
+    .di-1 h1{
+        font-size: 2vw;
+        margin-bottom: 280px ;
+        margin-right:-35px;
+    }
+    .di-1 img{
+        height: 150px;
+    }
+    .di-1-2{
+    
+    } */
+
+    
+    /* About */
+   
+    .a1 h2{
+        font-size: 2vw !important;
+        margin-bottom: 0 !important;
+    }
+    .a2 p{
+      margin-bottom: 5vw !important;  
+    }
+    .botones{
+        width: 100% !important  ;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        font-size: 2vw !important;
+    }
+   /*  header{
+       height: 50px;
+    }
+    
+    .navegacion{
+        justify-content: end;
+        width: 70%;
+    }
+    
+    }
+    
+  .menu-navegacion{    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    background-color: #edede9ff;
+    z-index: 1;
+    align-items: center;
+    width: 100px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .7);
+  }
+ 
+  .menu-navegacion li{
+    margin: 0;
+    height: 10px;
+    justify-content: start;
+    
+  }
+  .menu-navegacion li a{
+    right: 0;
+    top:0;
+    bottom: 0;
+    padding: 0 2vw;
+    height: 10px;
+    color: black;
+    text-align: left;
+    box-sizing: border-box;
+  }
+  .submenu{
+    display: none;
+  }
+ 
+  
+ */
+ 
+  
+}

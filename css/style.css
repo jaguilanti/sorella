@@ -816,6 +816,7 @@ main .propia {
   margin: 0vw 3vw 0vw 3vw;
 }
 
+/* Contactos */
 .c-main {
   display: block;
   background-color: #ccc5b9;
@@ -968,121 +969,120 @@ main .propia {
     height: 200px;
   }
   /* home */
-  .fondoparrafo div {
+  main .contenido .fondoparrafo div {
     font-size: 4px;
     width: 15%;
-    position: absolute;
-    margin-top: -6px;
+    margin-top: -5px;
     margin-right: 95%;
   }
-  .galeria-menu img {
-    height: 150px !important;
+  main .galeria-menu img {
+    height: 150px;
   }
   /* shop */
-  .s-portada {
+  main .s-portada {
     flex-flow: column wrap;
-    height: 250px !important;
+    height: 250px;
   }
-  .shop-parrafo-portada {
-    font-size: 1vw !important;
-    width: 80px !important;
-    margin-top: 3vw !important;
+  main .s-portada .s-d-port .shop-parrafo-portada {
+    font-size: 1vw;
+    width: 80px;
+    margin-top: 3vw;
   }
-  .shop-parrafo-portada2 {
-    font-size: 1.2vw !important;
-    margin-top: 11vw !important;
-    margin-right: 6vw !important;
-    width: 16vw !important;
+  main .s-portada2 .divimg-fondo-par .shop-parrafo-portada2 {
+    font-size: 1.2vw;
+    margin-top: 11vw;
+    margin-right: 6vw;
+    width: 16vw;
   }
   /* Journal */
-  .d-div1 {
-    display: flex !important;
-    flex-flow: column wrap !important;
-    height: auto !important;
+  .d-div .d-div1 {
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
   }
-  .d-div1 div h4 {
-    font-size: 2vw !important;
-    margin-left: -9vw !important;
-    margin-top: 7vw !important;
+  .d-div .d-div1 div h4 {
+    font-size: 2vw;
+    margin-left: -9vw;
+    margin-top: 7vw;
   }
   .d-div10 {
-    align-self: center !important;
-    width: 450px;
+    align-self: center;
+    width: auto;
   }
-  .d-div10 img {
-    width: 300px !important;
+  .d-div .d-div1 .d-div10 .d-i1 {
+    width: 300px;
   }
   .d-div11 {
-    width: 500px !important;
-    text-align: center !important;
-    padding: 0 !important;
-    margin-left: 12vw !important;
+    width: 450px;
+    text-align: center;
+    padding: 0;
+    margin-left: 12vw;
   }
-  .d-div11 h3 {
-    width: 250px !important;
+  .d-div .d-div1 .d-div11 h3 {
+    width: 250px;
     font-size: 3vw;
-    font-weight: bold !important;
+    font-weight: bold;
   }
-  .d-div11 p {
-    font-size: 3vw !important;
-    width: 250px !important;
+  .d-div .d-div1 .d-div11 p {
+    font-size: 3vw;
+    width: 250px;
   }
-  .d-div12 {
-    display: flex !important;
-    flex-flow: row wrap !important;
-    border-left: none !important;
-    border-right: none !important;
-    width: 100% !important;
+  .d-div .d-div1 .d-div12 {
+    display: flex;
+    flex-flow: row wrap;
+    border-left: none;
+    border-right: none;
+    width: 100%;
   }
-  .d-div12 img {
-    width: 200px !important;
+  .d-div .d-div1 .d-div12 .d-i2 {
+    width: 200px;
   }
-  .d-div12 .d-h4 {
-    font-size: 2vw !important;
-    margin-top: -35vw !important;
-    left: 15px !important;
+  .d-div .d-div1 .d-div12 .d-h4 {
+    font-size: 2vw;
+    margin-top: -35vw;
+    left: 15px;
   }
-  .d-div12 h3 {
-    font-size: 5vw !important;
-    width: 150px !important;
-    align-self: self-start !important;
-    margin-left: 5vw !important;
+  .d-div .d-div1 .d-div12 h3 {
+    font-size: 5vw;
+    width: 150px;
+    align-self: self-start;
+    margin-left: 5vw;
   }
-  .d-div12 p {
-    font-size: 3vw !important;
-    width: 100px !important;
-    position: absolute !important;
-    right: 45px !important;
+  .d-div .d-div1 .d-div12 p {
+    font-size: 3vw;
+    width: 100px;
+    position: absolute;
+    right: 45px;
   }
-  .d-div13 {
-    display: flex !important;
-    flex-flow: row wrap !important;
-    border-left: none !important;
-    border-right: none !important;
-    width: 100% !important;
+  .d-div .d-div1 .d-div13 {
+    display: flex;
+    flex-flow: row wrap;
+    border-left: none;
+    border-right: none;
+    width: 100%;
   }
-  .d-div13 img {
-    width: 200px !important;
+  .d-div .d-div1 .d-div13 .d-i2 {
+    width: 200px;
   }
-  .d-div13 .d-h4 {
-    font-size: 2vw !important;
-    margin-top: -35vw !important;
+  .d-div .d-div1 .d-div13 .d-h4 {
+    font-size: 2vw;
+    margin-top: -35vw;
   }
-  .d-div13 h3 {
-    font-size: 5vw !important;
-    width: 150px !important;
-    align-self: self-start !important;
-    margin-left: 5vw !important;
+  .d-div .d-div1 .d-div13 h3 {
+    font-size: 5vw;
+    width: 150px;
+    align-self: self-start;
+    margin-left: 5vw;
   }
-  .d-div13 p {
-    font-size: 3vw !important;
-    width: 100px !important;
-    position: absolute !important;
-    right: 45px !important;
-    margin-top: 100px !important;
+  .d-div .d-div1 .d-div13 p {
+    font-size: 3vw;
+    width: 100px;
+    position: absolute;
+    right: 45px;
+    margin-top: 100px;
   }
-  .diario-contenedor {
-    display: none !important;
+  .d-div .diario-contenedor {
+    display: none;
   }
   /* .diario-contenedor{
     display: grid;
@@ -1111,18 +1111,19 @@ main .propia {
 
   } */
   /* About */
-  .a1 h2 {
-    font-size: 2vw !important;
-    margin-bottom: 0 !important;
+  .about div .a1 h2 {
+    font-size: 2vw;
+    margin-bottom: 0;
   }
-  .a2 p {
-    margin-bottom: 5vw !important;
+  .about div .a2 p {
+    margin-bottom: 5vw;
   }
-  .botones {
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-bottom: 0 !important;
-    font-size: 2vw !important;
+  /* Botones */
+  .c-main section .form .botones {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 1.5vw;
   }
   /*  header{
         height: 50px;

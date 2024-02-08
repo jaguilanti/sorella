@@ -75,7 +75,7 @@
     }
     
     main .s-portada .s-d-port .shop-parrafo-portada{
-     font-size: 1vw ;
+     font-size: 0.5rem ;
      width: 80px ;
      margin-top: 3vw ;   
     } 
@@ -86,41 +86,41 @@
       width: 16vw ;  
     }
     /* Journal */
-    .d-div .d-div1 {
+    .d-div .d-division1 {
         display: flex ;
         flex-flow: column wrap ;
         height: auto ;
     }
-    .d-div .d-div1 div h4{
+    .d-div .d-division1 div h4{
         font-size: 2vw ;
         margin-left: -9vw ;
         margin-top: 7vw ;
     }
-    .d-div10 {
+    .d-division10 {
         align-self: center;
         width: auto;
     }
-    .d-div .d-div1 .d-div10 .d-i1 {
+    .d-div .d-division1 .d-division10 .d-i1 {
         width: 300px ; 
         
     }
-    .d-div11{
+    .d-division11{
         width: 450px ;
         text-align: center;
         padding: 0;
         margin-left: 12vw;
     }
-    .d-div .d-div1 .d-div11 h3{
+    .d-div .d-division1 .d-division11 h3{
        width: 250px;
        font-size: 3vw ;
        font-weight: bold ;
         
     }
-    .d-div .d-div1 .d-div11 p {
+    .d-div .d-division1 .d-division11 p {
       font-size: 3vw ;
       width: 250px ;
     }
-    .d-div .d-div1 .d-div12{
+    .d-div .d-division1 .d-division12{
       display: flex  ;
       flex-flow: row wrap  ;
       border-left: none  ;
@@ -128,53 +128,53 @@
       width: 100%  ;
     }
     
-    .d-div .d-div1 .d-div12 .d-i2 {
+    .d-div .d-division1 .d-division12 .d-i2 {
         width: 200px ;
         
     }
-    .d-div .d-div1 .d-div12 .d-h4{
+    .d-div .d-division1 .d-division12 .d-h4{
         font-size: 2vw ;
         margin-top: -35vw ;
         left: 15px ;
         
         
     }
-    .d-div .d-div1 .d-div12 h3 {
+    .d-div .d-division1 .d-division12 h3 {
         font-size: 5vw ;
         width: 150px ;
         align-self: self-start ;
         margin-left: 5vw ;
         
     }
-    .d-div .d-div1 .d-div12 p {
+    .d-div .d-division1 .d-division12 p {
         font-size: 3vw ;
         width: 100px ;
         position: absolute ;
         right: 45px ;
     }
     
-    .d-div .d-div1 .d-div13{
+    .d-div .d-division1 .d-division13{
         display: flex ;
         flex-flow: row wrap ;
         border-left: none ;
         border-right: none ;
         width: 100% ;
     }
-    .d-div .d-div1 .d-div13 .d-i2{
+    .d-div .d-division1 .d-division13 .d-i2{
      width: 200px ;     
     }
-    .d-div .d-div1 .d-div13 .d-h4{
+    .d-div .d-division1 .d-division13 .d-h4{
         font-size: 2vw ;
         margin-top: -35vw ;
     }    
-    .d-div .d-div1 .d-div13 h3 {
+    .d-div .d-division1 .d-division13 h3 {
         font-size: 5vw ;
         width: 150px ; 
         align-self: self-start ;
         margin-left: 5vw ;
         
     }
-    .d-div .d-div1 .d-div13 p {
+    .d-div .d-division1 .d-division13 p {
         font-size: 3vw ;
         width: 100px ;
         position: absolute ;

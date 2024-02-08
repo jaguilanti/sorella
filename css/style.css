@@ -238,7 +238,8 @@ main .s-portada .s-d-port {
 }
 main .s-portada .s-d-port .shop-parrafo-portada {
   position: absolute;
-  width: 300px;
+  width: 200px;
+  font-size: 1.5rem;
 }
 main .s-portada .s2 {
   display: flex;
@@ -433,7 +434,7 @@ main .propia {
   box-sizing: border-box;
   margin-top: 10px;
 }
-.d-div .d-div1 {
+.d-div .d-division1 {
   display: flex;
   box-sizing: border-box;
   margin: 1vw;
@@ -445,28 +446,28 @@ main .propia {
   background-color: #d6ccc2;
   border-radius: 15vw;
 }
-.d-div .d-div1 p a {
+.d-div .d-division1 p a {
   color: white;
   text-decoration: none;
 }
-.d-div .d-div1 div h4 {
+.d-div .d-division1 div h4 {
   position: absolute;
   transform: rotate(-90deg);
   font-size: 0.7vw;
   margin-top: 2.2vw;
   margin-left: -3vw;
 }
-.d-div .d-div1 .d-div10 {
+.d-div .d-division1 .d-division10 {
   padding: 2vw;
 }
-.d-div .d-div1 .d-div10 .d-i1 {
+.d-div .d-division1 .d-division10 .d-i1 {
   width: 20vw;
 }
-.d-div .d-div1 .d-div11 {
+.d-div .d-division1 .d-division11 {
   width: 15%;
   padding: 2vw 15vw 2vw 5vw;
 }
-.d-div .d-div1 .d-div12 {
+.d-div .d-division1 .d-division12 {
   display: flex;
   flex-direction: column;
   width: 10%;
@@ -476,17 +477,17 @@ main .propia {
   align-items: center;
   padding: 1vw 3vw 1vw 3vw;
 }
-.d-div .d-div1 .d-div12 .d-h4 {
+.d-div .d-division1 .d-division12 .d-h4 {
   transform: rotate(-90deg);
   font-size: 0.7vw;
   margin-left: -9.7vw;
   margin-top: 4.2vw;
   font-weight: bold;
 }
-.d-div .d-div1 .d-div12 .d-i2 {
+.d-div .d-division1 .d-division12 .d-i2 {
   width: 9vw;
 }
-.d-div .d-div1 .d-div13 {
+.d-div .d-division1 .d-division13 {
   padding: 1vw 3vw 1vw 3vw;
   font-size: 0.9vw;
   display: flex;
@@ -495,14 +496,14 @@ main .propia {
   font-size: 0.9vw;
   align-items: center;
 }
-.d-div .d-div1 .d-div13 .d-h4 {
+.d-div .d-division1 .d-division13 .d-h4 {
   transform: rotate(-90deg);
   font-size: 0.7vw;
   margin-left: -9.8vw;
   margin-top: 2.2vw;
   font-weight: bold;
 }
-.d-div .d-div1 .d-div13 .d-i2 {
+.d-div .d-division1 .d-division13 .d-i2 {
   width: 9vw;
 }
 .d-div .diario-contenedor {
@@ -515,13 +516,13 @@ main .propia {
   grid-template-areas: "di1 di3 di3 " "di1 di4 di6" "di2 di4 di6" "di2 di5 di5";
   margin-top: 30px;
 }
-.d-div .diario-contenedor .di-1 {
+.d-div .diario-contenedor .diario-1 {
   grid-area: di1;
   background: linear-gradient(to right, white 0%, white 30%, #edede9 30%, #edede9 100%);
   display: flex;
   align-items: center;
 }
-.d-div .diario-contenedor .di-1 .di-1-1 {
+.d-div .diario-contenedor .diario-1 .di-1-1 {
   background-color: #cccccc;
   padding: 15px 12px;
   color: #cccccc;
@@ -532,7 +533,7 @@ main .propia {
   margin-top: -15px;
   clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 100%, 0 85%);
 }
-.d-div .diario-contenedor .di-1 h1 {
+.d-div .diario-contenedor .diario-1 h1 {
   transform: rotate(-90deg);
   width: 100px;
   height: 30px;
@@ -542,12 +543,12 @@ main .propia {
   margin-bottom: 150px;
   font-family: "Rethink Sans", sans-serif;
 }
-.d-div .diario-contenedor .di-1 img {
+.d-div .diario-contenedor .diario-1 img {
   height: 500px;
   margin-right: 50px;
   margin-bottom: 200px;
 }
-.d-div .diario-contenedor .di-1 .di-1-2 {
+.d-div .diario-contenedor .diario-1 .di-1-2 {
   background-color: #cccccc;
   position: absolute;
   padding: 2vw 6vw;
@@ -558,13 +559,13 @@ main .propia {
   margin-left: 75px;
   margin-bottom: 50px;
 }
-.d-div .diario-contenedor .di-1 .di-1-2 .di-1-2-h2-1 {
+.d-div .diario-contenedor .diario-1 .di-1-2 .di-1-2-h2-1 {
   font-size: 2vw;
 }
-.d-div .diario-contenedor .di-1 .di-1-2 .di-1-2-h2-2 {
+.d-div .diario-contenedor .diario-1 .di-1-2 .di-1-2-h2-2 {
   font-size: 4vw;
 }
-.d-div .diario-contenedor .di-2 {
+.d-div .diario-contenedor .diario-2 {
   grid-area: di2;
   display: flex;
   flex-flow: column wrap;
@@ -574,11 +575,11 @@ main .propia {
   margin-bottom: 200px;
   justify-content: space-between;
 }
-.d-div .diario-contenedor .di-2 img {
+.d-div .diario-contenedor .diario-2 img {
   height: 400px;
   clip-path: polygon(15% 0, 75% 0, 100% 15%, 100% 50%, 100% 100%, 85% 100%, 25% 100%, 0 85%, 0 50%, 0 0);
 }
-.d-div .diario-contenedor .di-2 .di-2-1 {
+.d-div .diario-contenedor .diario-2 .di-2-1 {
   font-family: "Rethink Sans", sans-serif;
   color: black;
   text-align: center;
@@ -586,25 +587,25 @@ main .propia {
   background-color: white;
   text-shadow: #222 2px 2px 10px;
 }
-.d-div .diario-contenedor .di-2 .di-2-h2 {
+.d-div .diario-contenedor .diario-2 .di-2-h2 {
   font-family: "Rethink Sans", sans-serif;
   color: black;
   font-size: 0.7vw;
   align-self: center;
 }
-.d-div .diario-contenedor .di-3 {
+.d-div .diario-contenedor .diario-3 {
   grid-area: di3;
   display: flex;
   flex-flow: column nowrap;
   text-align: center;
   box-sizing: border-box;
 }
-.d-div .diario-contenedor .di-3 h2 {
+.d-div .diario-contenedor .diario-3 h2 {
   font-family: "Rethink Sans", sans-serif;
   font-size: 3vw;
   text-shadow: black 3px 7px 8px;
 }
-.d-div .diario-contenedor .di-3 .di-3-1 {
+.d-div .diario-contenedor .diario-3 .di-3-1 {
   display: flex;
   width: 100%;
   height: 370px;
@@ -614,7 +615,7 @@ main .propia {
   justify-content: center;
   margin-top: 2vw;
 }
-.d-div .diario-contenedor .di-3 .di-3-1 img {
+.d-div .diario-contenedor .diario-3 .di-3-1 img {
   transform: rotate(13deg);
   padding: 10px;
   height: 325px;
@@ -622,13 +623,13 @@ main .propia {
   background-position-x: center;
   background-position-y: top;
 }
-.d-div .diario-contenedor .di-3 .di-3-1 p {
+.d-div .diario-contenedor .diario-3 .di-3-1 p {
   width: 80%;
   margin-top: 2vw;
   font-family: "Rethink Sans", sans-serif;
   align-self: center;
 }
-.d-div .diario-contenedor .di-4 {
+.d-div .diario-contenedor .diario-4 {
   grid-area: di4;
   background: linear-gradient(to left, #f2f2f2 0%, #f2f2f2 50%, #a5a5a5 50%, #a5a5a5 100%);
   display: flex;
@@ -637,12 +638,12 @@ main .propia {
   align-items: center;
   margin-top: 100px;
 }
-.d-div .diario-contenedor .di-4 img {
+.d-div .diario-contenedor .diario-4 img {
   height: 500px;
   margin-left: 35px;
   border-radius: 11vw;
 }
-.d-div .diario-contenedor .di-4 .di-4-1 {
+.d-div .diario-contenedor .diario-4 .di-4-1 {
   display: flex;
   width: 480px;
   flex-flow: column nowrap;
@@ -650,18 +651,18 @@ main .propia {
   position: absolute;
   align-items: end;
 }
-.d-div .diario-contenedor .di-4 .di-4-1 h3 {
+.d-div .diario-contenedor .diario-4 .di-4-1 h3 {
   font-family: "Rethink Sans", sans-serif;
   font-size: 20px;
 }
-.d-div .diario-contenedor .di-4 .di-4-1 .di-4-1-1 {
+.d-div .diario-contenedor .diario-4 .di-4-1 .di-4-1-1 {
   background-color: white;
   width: 190px;
   padding-right: 5px;
   border-top-right-radius: 1vw;
   border-end-start-radius: 1vw;
 }
-.d-div .diario-contenedor .di-4 .di-4-1 .di-4-1-2 {
+.d-div .diario-contenedor .diario-4 .di-4-1 .di-4-1-2 {
   background-color: #cccccc;
   width: 170px;
   margin-top: 10px;
@@ -671,7 +672,7 @@ main .propia {
   border-top-right-radius: 1vw;
   border-end-start-radius: 1vw;
 }
-.d-div .diario-contenedor .di-4 .di-4-1 .di-4-1-3 {
+.d-div .diario-contenedor .diario-4 .di-4-1 .di-4-1-3 {
   background-color: #595959;
   width: 150px;
   padding-right: 5px;
@@ -679,7 +680,7 @@ main .propia {
   border-top-right-radius: 1vw;
   border-end-start-radius: 1vw;
 }
-.d-div .diario-contenedor .di-5 {
+.d-div .diario-contenedor .diario-5 {
   grid-area: di5;
   display: flex;
   background-color: #7f7f7f;
@@ -689,14 +690,14 @@ main .propia {
   justify-content: space-evenly;
   align-items: center;
 }
-.d-div .diario-contenedor .di-5 .di-5-1 {
+.d-div .diario-contenedor .diario-5 .di-5-1 {
   display: flex;
   flex-flow: column nowrap;
   width: 50%;
   text-align: center;
   align-items: center;
 }
-.d-div .diario-contenedor .di-5 .di-5-1 .di-5-1-1 {
+.d-div .diario-contenedor .diario-5 .di-5-1 .di-5-1-1 {
   font-size: 12vw;
   padding: 0;
   height: 100px;
@@ -705,24 +706,24 @@ main .propia {
   font-family: "IM Fell DW Pica", serif;
   margin-bottom: 0;
 }
-.d-div .diario-contenedor .di-5 .di-5-1 .di-5-1-2 {
+.d-div .diario-contenedor .diario-5 .di-5-1 .di-5-1-2 {
   font-size: 2.2vw;
   font-weight: bold;
   margin-bottom: 0;
   padding: 1vw;
 }
-.d-div .diario-contenedor .di-5 .di-5-1 .di-5-1-p1 {
+.d-div .diario-contenedor .diario-5 .di-5-1 .di-5-1-p1 {
   width: 90%;
   font-size: 1vw;
   margin-bottom: 0;
 }
-.d-div .diario-contenedor .di-5 .di-5-1 .di-5-1-p2 {
+.d-div .diario-contenedor .diario-5 .di-5-1 .di-5-1-p2 {
   background-color: #f2f2f2;
   padding: 10px;
   margin-top: 30px;
   border-radius: 3vw;
 }
-.d-div .diario-contenedor .di-5 .di-5-1 .di-5-1-p2 .div5-a {
+.d-div .diario-contenedor .diario-5 .di-5-1 .di-5-1-p2 .div5-a {
   color: white;
   background-color: #7f7f7f;
   padding-left: 10px;
@@ -731,12 +732,12 @@ main .propia {
   margin-left: 10px;
   text-decoration: none;
 }
-.d-div .diario-contenedor .di-5 img {
+.d-div .diario-contenedor .diario-5 img {
   height: 300px;
   background-color: #f2f2f2;
   padding: 1vw;
 }
-.d-div .diario-contenedor .di-6 {
+.d-div .diario-contenedor .diario-6 {
   grid-area: di6;
   display: flex;
   flex-flow: column nowrap;
@@ -745,16 +746,16 @@ main .propia {
   margin-top: 10px;
   background-color: #7f7f7f;
 }
-.d-div .diario-contenedor .di-6 h1 {
+.d-div .diario-contenedor .diario-6 h1 {
   font-family: "Rethink Sans", sans-serif;
   font-size: 2vw;
   font-weight: bold;
 }
-.d-div .diario-contenedor .di-6 p {
+.d-div .diario-contenedor .diario-6 p {
   width: 80%;
   font-size: 1vw;
 }
-.d-div .diario-contenedor .di-6 img {
+.d-div .diario-contenedor .diario-6 img {
   width: 400px;
   border-radius: 7vw;
   border: solid 10px white;
@@ -984,7 +985,7 @@ main .propia {
     height: 250px;
   }
   main .s-portada .s-d-port .shop-parrafo-portada {
-    font-size: 1vw;
+    font-size: 0.5rem;
     width: 80px;
     margin-top: 3vw;
   }
@@ -995,86 +996,86 @@ main .propia {
     width: 16vw;
   }
   /* Journal */
-  .d-div .d-div1 {
+  .d-div .d-division1 {
     display: flex;
     flex-flow: column wrap;
     height: auto;
   }
-  .d-div .d-div1 div h4 {
+  .d-div .d-division1 div h4 {
     font-size: 2vw;
     margin-left: -9vw;
     margin-top: 7vw;
   }
-  .d-div10 {
+  .d-division10 {
     align-self: center;
     width: auto;
   }
-  .d-div .d-div1 .d-div10 .d-i1 {
+  .d-div .d-division1 .d-division10 .d-i1 {
     width: 300px;
   }
-  .d-div11 {
+  .d-division11 {
     width: 450px;
     text-align: center;
     padding: 0;
     margin-left: 12vw;
   }
-  .d-div .d-div1 .d-div11 h3 {
+  .d-div .d-division1 .d-division11 h3 {
     width: 250px;
     font-size: 3vw;
     font-weight: bold;
   }
-  .d-div .d-div1 .d-div11 p {
+  .d-div .d-division1 .d-division11 p {
     font-size: 3vw;
     width: 250px;
   }
-  .d-div .d-div1 .d-div12 {
+  .d-div .d-division1 .d-division12 {
     display: flex;
     flex-flow: row wrap;
     border-left: none;
     border-right: none;
     width: 100%;
   }
-  .d-div .d-div1 .d-div12 .d-i2 {
+  .d-div .d-division1 .d-division12 .d-i2 {
     width: 200px;
   }
-  .d-div .d-div1 .d-div12 .d-h4 {
+  .d-div .d-division1 .d-division12 .d-h4 {
     font-size: 2vw;
     margin-top: -35vw;
     left: 15px;
   }
-  .d-div .d-div1 .d-div12 h3 {
+  .d-div .d-division1 .d-division12 h3 {
     font-size: 5vw;
     width: 150px;
     align-self: self-start;
     margin-left: 5vw;
   }
-  .d-div .d-div1 .d-div12 p {
+  .d-div .d-division1 .d-division12 p {
     font-size: 3vw;
     width: 100px;
     position: absolute;
     right: 45px;
   }
-  .d-div .d-div1 .d-div13 {
+  .d-div .d-division1 .d-division13 {
     display: flex;
     flex-flow: row wrap;
     border-left: none;
     border-right: none;
     width: 100%;
   }
-  .d-div .d-div1 .d-div13 .d-i2 {
+  .d-div .d-division1 .d-division13 .d-i2 {
     width: 200px;
   }
-  .d-div .d-div1 .d-div13 .d-h4 {
+  .d-div .d-division1 .d-division13 .d-h4 {
     font-size: 2vw;
     margin-top: -35vw;
   }
-  .d-div .d-div1 .d-div13 h3 {
+  .d-div .d-division1 .d-division13 h3 {
     font-size: 5vw;
     width: 150px;
     align-self: self-start;
     margin-left: 5vw;
   }
-  .d-div .d-div1 .d-div13 p {
+  .d-div .d-division1 .d-division13 p {
     font-size: 3vw;
     width: 100px;
     position: absolute;

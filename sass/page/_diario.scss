@@ -3,14 +3,14 @@
     width: 100%;
     box-sizing: border-box;
     margin-top: 10px;
-    .d-div1{
-        display: flex;
-        box-sizing: border-box;
-        margin: 1vw;
-        padding: 3vw 5vw;
-        flex-flow: row wrap;
-        justify-content:start;
-        font-family: $font2;
+    .d-division1{
+        display: flex ;
+        box-sizing: border-box ;
+        margin: 1vw ;
+        padding: 3vw 5vw ;
+        flex-flow: row wrap ;
+        justify-content:start ;
+        font-family: $font2 ;
         width: 98%;
         background-color: $bizon2; 
         border-radius: 15vw;
@@ -25,17 +25,17 @@
             margin-top: 2.2vw;
             margin-left: -3vw;  
         }
-        .d-div10{
+        .d-division10{
             padding: 2vw;
             .d-i1{
                 width: 20vw;
             }
         }
-        .d-div11{
+        .d-division11{
             width: 15%;
             padding: 2vw 15vw 2vw 5vw;
         } 
-        .d-div12{
+        .d-division12{
             display: flex;
             flex-direction: column;
             width: 10%;
@@ -56,7 +56,7 @@
             }
             
         }
-        .d-div13{
+        .d-division13{
             padding: 1vw 3vw 1vw 3vw ;
             font-size: .9vw;
             display: flex;
@@ -91,7 +91,7 @@
         "di2 di4 di6"
         "di2 di5 di5" ; 
         margin-top: 30px;
-        .di-1{
+        .diario-1{
             grid-area:di1 ;
             background: linear-gradient(
             to right,
@@ -148,7 +148,7 @@
                 }
             }
         }
-        .di-2{
+        .diario-2{
             grid-area: di2;
             display: flex;
             flex-flow: column wrap;
@@ -178,7 +178,7 @@
                 
             }
         }
-        .di-3{
+        .diario-3{
             grid-area: di3;   
             display: flex;
             flex-flow: column nowrap;
@@ -214,7 +214,7 @@
                 }          
             }
         }
-        .di-4{
+        .diario-4{
             grid-area: di4; 
             background: linear-gradient(
             to left,
@@ -272,7 +272,7 @@
                 }
             }
         }
-        .di-5{
+        .diario-5{
             grid-area: di5; 
             display: flex;
             background-color: $grisoscuro2;
@@ -330,7 +330,7 @@
                 padding: 1vw;             
             }
         }
-        .di-6{
+        .diario-6{
             grid-area: di6;
             display: flex;
             flex-flow: column nowrap;

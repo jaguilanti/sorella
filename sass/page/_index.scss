@@ -1,39 +1,45 @@
 /* index portada */
 main{
-    .port{
-        width: 100%;
-        position: absolute; 
-    }
-    
-    .encabezado-portada {
-     position: relative;
-     padding-top: 15% ;
-     padding-left: 30%;
-     padding-right: 30%;
-     flex-direction: column;  
-     color: rgb(255, 255, 255);
-     font-size: 5vw;
-     font-family: $font2;
-     text-align: center;
-     font-weight: bold; 
-    }
-    .bajo-portada{
-        position: relative ;
-        margin-top: 15%;
+    section{
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        background-color: $naranja; 
-        h2{
+        flex-flow: row wrap;
+        justify-content: center;
+        div{            
+            width: 100%;            
+            .port{                
+                width: 100%; 
+            }         
+                        
+        }
+        .encabezado-portada {
+            position: absolute;        
+            margin:0;
+            width: 40vw;
+            padding-top: 15%;
+            color: white;
+            font-size: 5vw;
             font-family: $font2;
-            font-weight: $negrita;
-            font-size: 1.5vw ;
-            height: 30px;
-            display: flex;
+            text-align: center;
             align-items: center;
-            margin-bottom: 0;  
+            font-weight: bold; 
+        }
+        .bajo-portada{               
+            display: flex;    
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            background-color: $naranja; 
+            h2{
+             font-family: $font2;
+             font-weight: $negrita;
+             font-size: 1.5vw ;
+             height: 30px;
+             display: flex;
+             align-items: center;
+             margin-bottom: 0;  
+            } 
         } 
     }
+    
     .contenido{
         padding: 5vw 20vw;
         .imagencontenido{

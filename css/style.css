@@ -10,6 +10,7 @@ header {
   height: 77.55px;
   z-index: 1;
   margin-bottom: 0;
+  width: 100%;
 }
 header .logonav {
   display: flex;
@@ -135,31 +136,36 @@ footer .textos-footer {
 }
 
 /* index portada */
-main .port {
-  width: 100%;
-  position: absolute;
+main section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
-main .encabezado-portada {
-  position: relative;
+main section div {
+  width: 100%;
+}
+main section div .port {
+  width: 100%;
+}
+main section .encabezado-portada {
+  position: absolute;
+  margin: 0;
+  width: 40vw;
   padding-top: 15%;
-  padding-left: 30%;
-  padding-right: 30%;
-  flex-direction: column;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 5vw;
   font-family: "Rethink Sans", sans-serif;
   text-align: center;
+  align-items: center;
   font-weight: bold;
 }
-main .bajo-portada {
-  position: relative;
-  margin-top: 15%;
+main section .bajo-portada {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   background-color: #e3d5ca;
 }
-main .bajo-portada h2 {
+main section .bajo-portada h2 {
   font-family: "Rethink Sans", sans-serif;
   font-weight: bold;
   font-size: 1.5vw;
@@ -1438,12 +1444,14 @@ body .about p {
   /* Journal */
   .d-div {
     box-sizing: content-box;
+    width: 100%;
   }
   .d-div .d-division1 {
     display: flex;
     flex-flow: column wrap;
     height: auto;
-    width: 110vw;
+    width: 100%;
+    margin: 0;
   }
   .d-div .d-division1 .d-division10 {
     width: 100%;
@@ -1534,12 +1542,12 @@ body .about p {
   .d-div .diario-contenedor {
     display: grid;
     box-sizing: border-box;
-    width: 100%;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(6, 5%);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 500px);
     grid-gap: 20px;
     grid-template-areas: " di1 " " di3 " " di4 " " di6 " " di2 " " di5 ";
     margin-top: 30px;
+    width: 100%;
   }
   .d-div .diario-contenedor .diario-1 h1 {
     width: 35%;
@@ -1583,16 +1591,20 @@ body .about p {
     font-size: 3vw;
   }
   .d-div .diario-contenedor .diario-3 {
-    height: 250px;
+    height: 90%;
+    justify-content: center;
   }
   .d-div .diario-contenedor .diario-3 h2 {
     font-size: 10vw;
     text-shadow: black 3px 7px 8px;
   }
+  .d-div .diario-contenedor .diario-3 .di-3-1 {
+    height: 40%;
+  }
   .d-div .diario-contenedor .diario-3 .di-3-1 img {
     transform: rotate(13deg);
-    height: 125px;
-    width: 70px;
+    height: 130%;
+    width: 20%;
   }
   .d-div .diario-contenedor .diario-3 p {
     width: 80%;

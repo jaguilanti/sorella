@@ -611,12 +611,15 @@
     
    /* Journal */
     .d-div{        
-        box-sizing: content-box; 
+        box-sizing: content-box;
+        width: 100%;
+
         .d-division1 {
            display: flex ;
            flex-flow: column wrap ;
            height: auto ;
-           width: 110vw;
+           width: 100%;
+           margin: 0;
             .d-division10 {                
                 width: 100%;
                 display: flex;
@@ -708,10 +711,9 @@
         }
         .diario-contenedor{
             display: grid;
-            box-sizing: border-box;
-            width: 100%;
-            grid-template-columns: repeat(1,auto);
-            grid-template-rows: repeat(6,5%);
+            box-sizing: border-box;            
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(6,500px);
             grid-gap: 20px;
             grid-template-areas:
             " di1 "
@@ -721,6 +723,7 @@
             " di2 "
             " di5 " ; 
             margin-top: 30px;
+            width: 100%;
             .diario-1{                                              
                 h1{
                     width: 35%;
@@ -765,16 +768,18 @@
                 }
             }
             .diario-3{
-                height: 250px;                
+                height: 90%;
+                justify-content: center;                
                 h2{ 
                     font-size: 10vw;
                     text-shadow: black 3px 7px 8px ;
                 }
-                .di-3-1{                     
+                .di-3-1{
+                    height: 40%;                     
                     img{
                         transform: rotate(13deg);                        
-                        height: 125px;
-                        width: 70px;                         
+                        height: 130%;
+                        width: 20%;                         
                     }                             
                 }
                 p{

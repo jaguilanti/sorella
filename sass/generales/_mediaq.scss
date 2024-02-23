@@ -1,4 +1,4 @@
-/* Media Quearies */
+/* Media Quearies Celular/Mobile*/
 @media only screen and (max-width: 460px) {
     
     header{ 
@@ -103,6 +103,9 @@
                  width: 70px ;
                  margin-top: 3vw ;   
                 } 
+            }
+            .s2 div h2,h1{
+                text-shadow: rgb(255, 0, 0) 5px 5px 6px;
             }
         }
         .productos-menu{
@@ -458,11 +461,489 @@
                 h3{
                     font-weight: bolder;
                     font-size: 60%;
-                }
-                
+                }                
             }
         }
+    }  
+}
+/* Media Quearies Tablet*/
+@media only screen and (min-width:461px) and (max-width: 900px) {
+    
+    header{ 
+                       
+        .logonav{
+            font-size: 8vw ;
+        }
+        .navegacion{            
+            .abrir-menu,
+            .cerrar-menu {
+                display: block;
+                border: 0;
+                background-color: transparent;
+                cursor: pointer;
+            }
+            .abrir-menu{
+                display:inline-flex;
+                align-items: center;
+                right: 2vw;
+                width: 6vw;
+                height: 77.5px;
+                img{
+                    width: 6vw;
+                    height: 6vw;
+                }
+            }
+            .cerrar-menu{
+                color: black;
+                display: block;
+                align-self: center;
+                cursor: pointer;
+                font-size: 3.5vw; 
+              }
+                .menu.visible {
+                opacity: 1;
+                visibility: visible;
+                
+            }
+            .menu{
+                opacity: 0 ;
+                visibility: hidden;
+        
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                gap: 1rem;
+                position: absolute;                
+                height: 60vw;
+                top: 0;
+                right: 15px;
+                background-color:#edede9ff ;
+                padding: 1vw;
+                box-shadow: 0 0 1000vmax 100vmax  rgba(0, 0, 0, .5) ; 
+                z-index: 1;
+                box-sizing: border-box;
+                
+                .menu-navegacion{
+                  flex-direction: column;
+                  align-items: center;
+                  margin-right: 0;
+                  bottom: 0;
+                  justify-content: space-around;
+         
+                  li a{
+                    font-size: 3vw;                  
+                  }
+                }
+            }
+        }        
+    }
+   
+
+    /* home */
+    main{ 
+        .contenido{
+            .fondoparrafo{
+               p{
+                font-size: 100%;
+               }           
+               div {
+                font-size: 100% ;
+                width: 15% ;
+                margin-top: -5% ;
+                margin-right: 95% ;
+               } 
+            } 
+             
+        } 
+        .galeria-menu{
+            margin-top: 10%;
+            margin:0;
+            margin-bottom: 10%;
+            box-sizing: content-box;
+           img {
+            height: 250px ;
+            }
+        }     
     } 
- 
   
+    
+    /* shop */
+    main {
+        .s-portada {
+            flex-flow: column wrap ;
+            height: 55vw ;
+            div img{
+                width: auto-fit;
+            }
+            .s-d-port{
+                .shop-parrafo-portada{
+                 font-size:2vw ;
+                 width: 20% ;
+                 margin-top: 0 ;   
+                } 
+            }
+            .s2 div h2,h1{
+                text-shadow: rgb(255, 0, 0) 5px 5px 6px;
+            }
+        }
+        .productos-menu{
+            div{
+                width: 90%;
+                padding-bottom: 5% ;
+                img{
+                  width: 90%;
+                }
+            }
+        }
+        .s-portada2 {
+            .divimg-fondo-par{
+               .shop-parrafo-portada2{
+                  font-size: 1.3vw ;
+                  margin-top: 8vw ;
+                  margin-right: 6vw ;
+                  width: 16vw ;  
+                }
+            }
+        }
+
+    }
+    
+    
+   /* Journal */
+    .d-div{        
+        box-sizing: content-box; 
+        .d-division1 {
+           display: flex ;
+           flex-flow: column wrap ;
+           height: auto ;
+           width: 110vw;
+            .d-division10 {                
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                h4{
+                  left: 6vw;
+                  top:60%;
+                  font-size: 3vw;
+                }
+                .d-i1{
+                    width: 80% ;                                        
+                }
+            } 
+            .d-division11{
+                width: 100% ;
+                display: flex;
+                flex-flow: column nowrap;
+                padding: 0;
+                align-items: center;
+                text-align: center;
+                
+                h3{
+                    width: 50%;
+                    font-size: 3vw ;
+                    font-weight: bold ;
+                }
+                p{
+                    font-size: 3vw ;
+                    width: 50% ;
+                }
+            }
+            .d-division12{
+                display: flex  ;
+                flex-flow: row wrap  ;
+                border-left: none  ;
+                border-right: none  ;
+                width: 100%  ;
+                .d-h4{
+                    font-size: 2vw ;
+                    margin-top: -80% ;
+                    left: 4% ;        
+                }
+                .d-i2 {
+                    width: 80% ;                    
+                }
+                h3 {
+                    width: 50%;
+                    font-size: 3vw ;
+                    font-weight: bold ;
+                    text-align: center;
+                    margin-top: 1%;
+                }
+                p {
+                    font-size: 3vw ;
+                    width: 50% ;
+                    position: static;
+                    text-align:center ;
+                }
+            }
+            .d-division13{
+                display: flex ;
+                flex-flow: row wrap ;
+                border-left: none ;
+                border-right: none ;
+                width: 100% ;
+                .d-h4{
+                    font-size: 2vw ;
+                    margin-top: -80% ;
+                    left: 10% ; 
+                } 
+                .d-i2{
+                    width: 80% ;     
+                }
+                h3 {
+                    width: 50%;
+                    font-size: 3vw ;
+                    font-weight: bold ;
+                    text-align: center;
+                    margin-top: 1%;
+                }
+                p {
+                    font-size: 3vw ;
+                    width: 50% ;
+                    position: static;
+                    text-align:center ;
+                    
+                }
+            }
+        }
+        .diario-contenedor{
+            display: grid;
+            box-sizing: border-box;
+            width: 100%;
+            grid-template-columns: repeat(1,auto);
+            grid-template-rows: repeat(6,5%);
+            grid-gap: 20px;
+            grid-template-areas:
+            " di1 "
+            " di3 "
+            " di4 "
+            " di6 "
+            " di2 "
+            " di5 " ; 
+            margin-top: 30px;
+            .diario-1{                                              
+                h1{
+                    width: 35%;
+                    height: 7vw;
+                    font-size: 230%;
+                    text-align: end;                                                       
+                    margin-bottom: 10%;                    
+                }
+                img{
+                    height: 90%;
+                    margin-right: 0;
+                    margin-bottom: 0vw ;
+                    justify-self: flex-end;
+                }
+                .di-1-2{                    
+                    padding: 1.5vw 3.5vw;                    
+                    margin-left: 5vw ;
+                    margin-bottom: 1%;
+                    .di-1-2-h2-1{
+                        font-size: 3vw;
+                    }                
+                    .di-1-2-h2-2{
+                        font-size: 5vw;
+                    }
+                }
+            }
+            .diario-2{
+                padding: 0;                
+                margin-left: 0 ;
+                margin-bottom: 0;
+                justify-content: space-around;
+                align-content: space-around;
+                img{
+                    height: 90%;                    
+                }
+                .di-2-1{                    
+                    font-size: 5vw;
+                    padding: 3%;                    
+                }
+                .di-2-h2{                         
+                    font-size: 3vw;                       
+                }
+            }
+            .diario-3{
+                height: 250px;                
+                h2{ 
+                    font-size: 10vw;
+                    text-shadow: black 3px 7px 8px ;
+                }
+                .di-3-1{                     
+                    img{
+                        transform: rotate(13deg);                        
+                        height: 125px;
+                        width: 70px;                         
+                    }                             
+                }
+                p{
+                    width: 80%;
+                    margin-top: 2vw ;
+                    font-family: $font2;
+                    align-self: center;
+                    margin-bottom: 0;
+                } 
+            }
+            .diario-4{              
+              margin-top: 0;
+              
+                img{
+                 height: 70%;
+                 margin-left: 5%;
+                }
+                .di-4-1{                    
+                    width: 100%;                    
+                    position: static;                   
+                   
+                    .di-4-1-1{                        
+                        width: 170px;                        
+                        border-top-right-radius: 3vw;
+                        border-end-start-radius: 3vw;
+                    }
+                    .di-4-1-2{                        
+                        width: 150px;
+                        border-top-right-radius: 3vw;
+                        border-end-start-radius: 3vw;                        
+                    }
+                    .di-4-1-3{                        
+                        width: 130px;                        
+                        border-top-right-radius: 3vw;
+                        border-end-start-radius: 3vw;
+                    }
+                }
+            }
+            .diario-5{                
+                margin-right: 0;
+                bottom: 10%;
+                padding: 0;
+                .di-5-1{
+                    height: 100%;                    
+                    .di-5-1-1{                        
+                        height: 10%;                        
+                        width: 100%;                                                
+                    }
+                    .di-5-1-2{
+                        font-size: 5vw;                        
+                        padding: 1vw;
+                    }
+                    .di-5-1-p1{
+                        width: 100%;
+                        font-size: 3vw;
+                        margin-bottom: 0;
+                    }
+                    .di-5-1-p2{
+                        font-size: 70%;                        
+                        padding: 2%;
+                        margin-top: 10%;
+                        border-radius: 3vw;
+                        width: 100%;                        
+                        .div5-a{                                                      
+                            padding-left: 4%;
+                            padding-right: 4%;
+                            border-radius: 2vw;                                               
+                        }
+                    }
+                }
+                img{
+                    height: 90%;
+                    background-color: $gris2;
+                    padding: 1vw;             
+                }
+            }
+            .diario-6{                       
+                margin-top: 0;
+                
+                h1{                    
+                    font-size: 7vw;
+                    margin-top: 3%;
+                    margin-bottom: 0;                    
+                }
+                p{
+                    width: 80%;
+                    font-size: 4vw;
+                    margin-bottom: 0;
+                }
+                img{
+                    width: 27%;
+                    border-radius: 7vw;
+                    border: solid 10px white;
+                    margin-bottom: 1.5%;
+                } 
+            }  
+        }   
+    }
+       
+    /* About */
+   
+    .about div .a1 h2{
+        font-size: 2vw ;
+        margin-bottom: 0 ;
+    }
+    .about div .a2 p{
+      margin-bottom: 5vw ;  
+    }
+    /* Botones */
+    .c-main section .form .botones{
+        width: 100%   ;
+        margin-left: 0 ;
+        margin-bottom: 0 ;
+        font-size: 1.5vw ;
+    }
+  
+    /* Contacto */
+    .c-main{
+        display: flex;
+        flex-flow: column wrap;
+        width: 95%;
+        padding: 0;
+        section{            
+            flex-flow: row wrap;
+            align-items: center;            
+            .form{               
+                height: 100%;
+                width: 100%;
+                div{
+                    font-size: 100%;
+                    padding: 2vw;
+                }
+                input{    
+                    width: 70%;                     
+                }
+                #mensaje{
+                    width: 95%;
+                }
+                .botones{
+                    font-size: 90%;
+                    width: 45% ;                    
+                }  
+                
+            }
+            .c-contacto  {                                
+                width: 100%;
+                margin-top: 10%;
+                border-radius: 1vw;
+                justify-content: center;
+                div{                    
+                    p{
+                        width: 200%;
+                        padding: 1vw 0.5vw;
+                        font-size: 99%;                        
+                        font-weight: lighter;
+                    }
+                    .contactos-comentario{
+                        width: 100%;
+                    }
+                }
+                div p img{
+                    width: 20%;
+                    padding-right: 2%;
+                }
+                h3{
+                    font-weight: bolder;
+                    font-size: 200%;
+                }                
+            }
+        }
+    }  
 }

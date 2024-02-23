@@ -104,6 +104,7 @@
           align-items:center ;
           
            .di-1-1{
+            width: 2vw;
             background-color: $gris;
             padding: 15px 12px;
             color: $gris;
@@ -140,6 +141,7 @@
                 align-self:flex-end;
                 margin-left: 75px ;
                 margin-bottom: 50px;
+                width: 10%;
                 .di-1-2-h2-1{
                     font-size: 2vw;
                 }                
@@ -153,12 +155,12 @@
             display: flex;
             flex-flow: column wrap;
             background-color:$gris ;   
-            padding: 2vw 6vw;
-            margin-left: 75px ;
+            /* padding: 2vw 6vw; */
+            align-items: center;
             margin-bottom: 200px;
-            justify-content: space-between;
+            justify-content: space-evenly;
             img{
-                height: 400px;
+                width: 200px;
                 clip-path: polygon(15% 0, 75% 0, 100% 15%, 100% 50%, 100% 100%, 85% 100%, 25% 100%, 0 85%, 0 50%, 0 0);
             }
             .di-2-1{
@@ -168,6 +170,7 @@
                 font-size: 2vw;
                 background-color: white;
                 text-shadow: $negro 2px 2px 10px;
+                width: 50%;
             }
             .di-2-h2{
     
